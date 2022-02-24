@@ -1,10 +1,18 @@
 class Circle{
 
+    private:
     //Propiedades
-    public:
     double radius;
 
+    public:
+
+    //Getters
+        double getRadius() {return radius;}
+
+    //Setters
+        void setRadius(double r) {radius = r;}
     //Constructor
+
     Circle(double r){
 
         radius = r;

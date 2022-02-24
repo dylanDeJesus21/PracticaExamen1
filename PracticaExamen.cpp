@@ -6,13 +6,13 @@ using namespace std;
 
 double perimeterCircle(Circle s){
 
-    double perimeter = 2*M_PI*s.radius;
+    double perimeter = 2*M_PI*s.getRadius();
     return perimeter;
 
 }
 
 int main(){
 
-    cout<<"Perimeter is: "<<perimeterCircle(Circle(8))<<endl;
+    cout<<"Perimeter is: "<<perimeterCircle(Circle(12))<<endl;
 
 }
