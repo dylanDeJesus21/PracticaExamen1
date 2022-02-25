@@ -4,11 +4,13 @@ class Circle{
     private:
     //Propiedades
     double radius;
+    
 
     public:
 
     //Getters
         double getRadius() {return radius;}
+
 
     //Setters
         void setRadius(double r) {radius = r;}
@@ -21,7 +23,10 @@ class Circle{
     }
 
     //Method declaration
-    double perimeterCircle();    
+    double getPerimeter();
+    double getArea();
+    
+
 
     
 };
