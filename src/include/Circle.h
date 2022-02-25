@@ -22,9 +22,12 @@ class Circle{
         
     }
 
-    //Method declaration
+    //Method declarations
     double getPerimeter();
     double getArea();
+    double getVolume();
+    static double sumVolumes(Circle list[], int numCircles);
+
     
 
 
